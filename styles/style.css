@@ -52,7 +52,6 @@
   position: absolute;
   top: 64px;
   right: 0;
-
   z-index: 0;
 }
 
@@ -65,6 +64,50 @@
   top: 20%;
   right: 0px;
   z-index: 1;
+}
+
+.description {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.two-columns {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* разобраться с высотой строки */
+.two-columns__brief {
+  width: 175px;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #2f80ed;
+  margin-top: 0;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.two-columns__paragraph:last-of-type {
+  margin-bottom: 0px;
+}
+
+.two-columns__span-accent {
+  font-weight: 600;
 }
 
 /* и элемента с модификатором вида ключ-значение */
