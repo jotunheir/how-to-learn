@@ -213,6 +213,7 @@
   position: absolute;
   top: 50%;
   right: 48px;
+  margin: 0;
 }
 
 .kaufman {
@@ -260,10 +261,6 @@
   margin-right: 0;
   z-index: 2;
 }
-
-/* .border {
-  border: 1px solid red;
-} */
 
 .footer {
   background-color: #1f1f1f;
