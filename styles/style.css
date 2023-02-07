@@ -174,13 +174,6 @@
   margin-top: 20px;
 }
 
-.table__source {
-  margin: 20px 0 0 0;
-  font-size: 18px;
-  line-height: 1.2;
-  font-weight: normal;
-}
-
 .feynman {
   min-height: 890px;
   background-color: #f2f2f2;
