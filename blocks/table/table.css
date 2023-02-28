@@ -3,7 +3,7 @@
   text-align: left;
   list-style: none;
   padding: 0;
-  margin: 60px auto 0; /* margin: 60px auto 0 */
+  margin: 60px auto 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

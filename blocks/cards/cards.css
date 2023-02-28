@@ -6,6 +6,5 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
-  row-gap: 60px;
+  gap: 0 100px;
 }
